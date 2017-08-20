@@ -1,0 +1,31 @@
+body {
+	background-color: #e9ebee;
+}
+
+#wrapper {
+	padding-top: 60px;
+	padding-bottom: 100px;
+}
+.btn-like {
+	background-color: transparent;
+	font-size: 24px;
+	line-height: 24px;
+	padding:0px;
+	margin: 0px;
+	color: #95a5a6
+}
+.btn-comment-delete {
+	background-color: transparent;
+	color: #95a5a6;
+	visibility: hidden;
+}
+
+.comment-item:hover  .btn-comment-delete {
+	visibility: visible;
+}
+.media-object {
+	border-radius: 50%;
+}
+.heart {
+	color: #e74c3c;
+}

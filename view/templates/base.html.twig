@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{% block title %}Test Application{% endblock %}</title>
+    <link rel="icon" href="{{ ROOT }}/assets/image/icon.png">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ ROOT }}/assets/css/bootstrap/bootstrap.min.css">
+    
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="{{ ROOT }}/assets/js/bootstrap/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="{{ ROOT }}/assets/css/sportify.css">
+</head>
+<body>
+  {% block navbar %} {% endblock %}
+
+	{% block body %}
+
+
+  {% endblock %}
+</body>
+</html>
